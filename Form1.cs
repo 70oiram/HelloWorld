@@ -22,5 +22,10 @@ namespace HelloWorld
         {
 
         }
+
+        private void btnGO_Click(object sender, EventArgs e)
+        {
+            txtShow.Text = "Hello World!";
+        }
     }
 }
